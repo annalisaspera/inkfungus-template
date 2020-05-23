@@ -104,7 +104,13 @@ Ti dirigi verso l'auto e parti per recarti al tribunale.
 -> IlSogno
 
 === IlSogno ===
--> END
+
+All'improvviso diventa tutto buio. Non vedi nulla intorno a te.
+Friedrich "Cosa sta succedendo?! 
+Friedrich "Non vedo niente!
+
+
+-> DONE
 
 
 
