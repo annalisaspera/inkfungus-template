@@ -50,11 +50,10 @@ Il motore si accende.
    ** ...ma cosa?...
    
    **...
-   -- Friedrich "Sono stanco ora... andrò a dormire.
-Lisa "Va bene... buonanotte caro.
 
 - Friedrich "Sono stanco ora... andrò a dormire.
 Lisa "Va bene... buonanotte caro.
+
 -> Colazione
 
 // prima della colazione metterei ancora qualche pensiero "particolare" di Friedrich //
@@ -108,6 +107,9 @@ Ti dirigi verso l'auto e parti per recarti al tribunale.
 All'improvviso diventa tutto buio. Non vedi nulla intorno a te.
 Friedrich "Cosa sta succedendo?! 
 Friedrich "Non vedo niente!
+Chiudi gli occhi per qualche secondo, sfregandoli ripetutamente.
+Riapri gli occhi.
+Friedrich "Ma che diavolo?!
 
 
 -> DONE
