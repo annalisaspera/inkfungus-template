@@ -13,14 +13,14 @@
 Schmitt "E anche oggi abbiamo fatto il nostro dovere, eh Friedrich?
 Friedrich "Giusto. Il caso era molto semplice e l'udienza è terminata in fretta. 
 Schmitt "Già... beh, allora a domani.
-Friedrich "A domani.
+Friedrich "A domani. 
 -> InAuto
 
 
-= InAuto
+= InAuto 
 
-Friedrich "Le chiavi... eccole.
-Il motore si accende.
+Friedrich "Le chiavi... eccole. 
+Il motore si accende. # auto
 -> Radio
 
 === Radio ===
@@ -31,13 +31,19 @@ Il motore si accende.
    
 *  Radio spenta // 10 sec
    L'auto accelera e parte.
+   Friedrich "Che giornata...
+   Friedrich "Non vedo l'ora di arrivare a casa.
+   Friedrich "Chissà domani cosa succederà.
+   Friedrich "Beh... in realtà non capiterà nulla di nuovo, fortunatamente.
+   Friedrich "Mi piace il mio lavoro, o almeno credo. Quei rivoltosi non comprendono la fortuna che abbiamo tutti ad appartenere al nostro Sistema. Perchè farsi problemi quando abbiamo già tutto organizzato per noi.
+   Friedrich "Non lo capirò mai.
    -> ACasa1
    
-   = ACasa1
-   
+   = ACasa1 
+   # casa
    Friedrich "Eccomi arrivato.
    Apri la porta di casa.
-   Friedrich "Sono tornato.
+   Friedrich "Sono tornato. # camera
    Lisa "Ciao caro. Vieni, è pronta la cena.
    Ti accomodi e inizi a mangiare.
    Lisa "Come è andata oggi a lavoro?
