@@ -5140,9 +5140,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1917274147}
+  - {fileID: 1917274137}
   selectedCommands:
-  - {fileID: 1917274146}
+  - {fileID: 1917274131}
   variables: []
   description: 
   stepPause: 0
@@ -6306,7 +6306,7 @@ MonoBehaviour:
     floatVal: 4
   _toFrom: 0
   _absAdd: 0
-  easeType: 3
+  easeType: 4
   loopType: 35
   repeats: 0
   stopPreviousTweens: 0
