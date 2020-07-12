@@ -220,7 +220,7 @@ Orso "Ciao. Amico mio, posso chiederti un piccolo favore?
 -> Aiuto
 
 + Mi dispiace, ma devo andare. 
--> Blackout // sorta di limbo
+-> Limbo 
 
 
 
@@ -237,9 +237,9 @@ Orso "Grazie. Come promesso, ti lascerò andare...
 
 
 
-= Blackout
-Subito t senti stanco e non riesci a muoverti. # blackout
-Friedrich?sorpreso "Forse... mi sto svegliando.
+= Limbo
+Subito ti senti stanco e non riesci a muoverti. 
+Friedrich?sorpreso "Forse... mi sto svegliando. # limbo
 Friedrich "Anche se provo una strana sensazione.
 
 + Avrei dovuto aiutare l'orso... 
@@ -254,6 +254,7 @@ Friedrich "Chissà di cosa aveva bisogno.
 = Bar1 // negativo
 Dopo qualche passo, di nuovo diventa tutto buio. # out1
 Friedrich?arrabbiato " Ho fatto bene a non dar retta a quell'orso. Finalmente mi sto svegliando da questo incubo. Spero di non essere in ritardo per il lavoro.
+
 
 -> DONE
 
