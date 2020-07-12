@@ -19,7 +19,7 @@ Friedrich "A domani.
 
 = InAuto 
 
-Friedrich "Le chiavi... eccole. 
+Friedrich?arrabbiato "Le chiavi... eccole. 
 Il motore si accende. # auto
 -> Radio
 
@@ -33,10 +33,10 @@ Il motore si accende. # auto
    L'auto accelera e parte.
    Friedrich "Che giornata...
    Friedrich "Non vedo l'ora di arrivare a casa.
-   Friedrich "Chissà domani cosa succederà.
+   Friedrich?arrabbiato "Chissà domani cosa succederà.
    Friedrich "Beh... in realtà non capiterà nulla di nuovo, fortunatamente.
    Friedrich "Mi piace il mio lavoro, o almeno credo. Quei rivoltosi non comprendono la fortuna che abbiamo tutti ad appartenere al nostro Sistema. Perchè farsi problemi quando abbiamo già tutto organizzato per noi.
-   Friedrich "Non lo capirò mai.
+   Friedrich?arrabbiato "Non lo capirò mai.
    -> ACasa1
    
    = ACasa1 
@@ -51,13 +51,13 @@ Il motore si accende. # auto
 +  Tutto bene. Come sempre. // 10 sec
 
 +  Noia... // 2 sec
-   Friedrich "Mi sono ann...
+   Friedrich?sorpreso "Mi sono ann...
    
    ++ ...ma cosa?... 
    
    ++... 
 
-- Friedrich "Sono stanco ora... andrò a dormire.
+- Friedrich?arrabbiato "Sono stanco ora... andrò a dormire.
 Lisa "Va bene... buonanotte caro. # notte 
 
 -> Colazione
@@ -75,7 +75,7 @@ Friedrich "Sempre i soliti rivoltisti che si scagliano contro il nostro Sistema 
 Friedrich "Se tutti seguissero le regole saremmo tranquilli.
 Lisa "E felici.
 Friedrich "Forse. 
-Friedrich "Di sicuro tranquilli.
+Friedrich?arrabbiato "Di sicuro tranquilli.
 Lisa "Mh, hai ragione caro. Beh, allora l'udienza sarà breve, no?
 Friedrich "Già. Poveri illusi, contro 100 avvocati e giudici del Sistema. Come sempre, il giudice Schultz e Schmitt non lasceranno nemmeno parlare l'imputato.
 Ti alzi e ti dirigi alla porta.
@@ -96,7 +96,7 @@ Friedrich "Mmm, vado in auto?
    Lisa "Ma che strano caro, non vai mai a piedi!
    
    ++  Vai comunque a piedi.
-   Friedrich "Che strana sensazione...
+   Friedrich?sorpreso "Che strana sensazione...
    -> Capitolo2
    
    ++  Vai in auto.
@@ -115,37 +115,37 @@ Ti dirigi verso l'auto e parti per recarti al tribunale.
 # buio
 
 All'improvviso diventa tutto buio. Non vedi nulla intorno a te. 
-Friedrich "Cosa sta succedendo?! 
-Friedrich "Non vedo niente!
+Friedrich?sorpreso "Cosa sta succedendo?! 
+Friedrich?sorpreso "Non vedo niente!
 Chiudi gli occhi per qualche secondo, sfregandoli ripetutamente.
 Riapri gli occhi. # foresta
-Friedrich "Ma che diavolo?! 
-Friedrich "Dove sono finito?"
+Friedrich?sorpreso "Ma che diavolo?! 
+Friedrich?sorpreso "Dove sono finito?"
 ...
 ...
 Friedrich "E ora?
-+   vai a destra
++   Vai a destra
 # destra
 Inizi a camminare lungo la foresta cercando di capire cosa stia succedendo. Arrivi all'ombra di un grande albero.
-    Friedrich "Merda. Sono nello stesso punto di prima.
+    Friedrich?arrabbiato "Merda. Sono nello stesso punto di prima.
 Ti fermi qualche secondo per pensare.
 -> Volpe
 
-+   vai a sinistra 
++   Vai a sinistra 
  # sinistra
 Inizi ad incamminarti, guardandoti intorno.
 Sfortunatamente, arrivi ad un vicolo cieco.
 Ti fermi un istante e rifletti.
 -> Volpe
 
-+ rimani fermo
++ Rimani fermo
 -> Volpe
 
 = Volpe 
 All'improvviso si avvicina qualcuno. # volpe
-Friedrich "Ma... è una volpe?
-Friedrich "Perchè una volpe ora? Cosa mi sta succedendo?!
-L'animale si avvicina sempre di più al giudice.
+Friedrich?sorpreso "Ma... è una volpe?
+Friedrich?sorpreso "Perchè una volpe ora? Cosa mi sta succedendo?!
+L'animale si avvicina sempre di più.
 Volpe "Ciao. Non avere paura. 
 Rimani immobile e in silenzio continui a guardare la creatura.
 Volpe "Non voglio farti del male. Voglio solo chiederti una cosa.
@@ -154,12 +154,12 @@ Volpe "Però ho assaggiato il latte, recentemente. Devo dire che mi è piaciuto 
 Friedrich "...
 
 +  Non ascoltare
-   Friedrich "Cosa diavolo sto facendo? Una volpe che parla? Devo andarmene.
+   Friedrich?arrabbiato "Cosa diavolo sto facendo? Una volpe che parla? Devo andarmene.
    Ti guardi intorno e, senza dire nulla, ti allontani dalla volpe.
    Volpe "Friedrich. Tu non sei come gli altri, ricordalo.
    
    ++ Ti sbagli 
-   Friedrich "Ti sbagli. Sono proprio come loro.
+   Friedrich?arrabbiato "Ti sbagli. Sono proprio come loro.
    Senza voltarti verso la volpe, ricominci a camminare. #bye   
    -> Orso1
    
@@ -181,23 +181,25 @@ Friedrich "...
 
 = Orso1  // negativo
 
-Pochi istanti dopo, noti in lontananza un orso.
-E' molto piccolo e non sembra essere pericoloso.
+Pochi istanti dopo, noti in lontananza un orso. 
+E' molto piccolo e non sembra essere pericoloso. # orso
 Anch'esso, come la volpe, si avvicina.
-Friedrich "Oh no... Che mi succede? 
-Friedrich "Non ancora, ti prego...
+Friedrich?sorpreso "Oh no... Che mi succede? 
+Friedrich?arrabbiato "Non ancora, ti prego...
 Orso "Ciao. Amico mio, posso chiederti un piccolo favore?
 Rimani in silenzio davanti all'orso.
 
 + No, devo tornarmene alla realtà
-  Friedrich "E' tutto uno stupido sogno. Devo andare al tribunale al più presto, appena sarò sveglio.
-  L'orso rimane immobile mentre vai via, amareggiato dalla tua fretta.
+  Friedrich?arrabbiato "E' tutto uno stupido sogno. Devo andare al tribunale al più presto, appena sarò sveglio.
+  L'orso rimane immobile mentre vai via, amareggiato dalla tua fretta. # fade_orso
    -> Bar1
   
 + ...
 
   ++ No.
-  Ti incammini cercando di no voltarti verso l'orso, il quale rimane in silenzio.
+  Ti incammini cercando di no voltarti verso l'orso, il quale rimane in silenzio. 
+  # fade_orso
+  
   -> Bar1
   
   ++ Va bene...
@@ -208,16 +210,16 @@ Rimani in silenzio davanti all'orso.
 
 = Orso2  // positivo
 
-Pochi istanti dopo, noti in lontananza un orso.
-E' molto piccolo e non sembra essere pericoloso.
+Pochi istanti dopo, noti in lontananza un orso. 
+E' molto piccolo e non sembra essere pericoloso. # orso
 Anch'esso, come la volpe, si avvicina.
-Friedrich "Oh no... Che mi succede? 
-Friedrich "Non ancora, ti prego...
+Friedrich?sorpreso "Oh no... Che mi succede? 
+Friedrich?arrabbiato "Non ancora, ti prego...
 Orso "Ciao. Amico mio, posso chiederti un piccolo favore?
 + Certo!
 -> Aiuto
 
-+ Mi dispiace, ma devo andare.
++ Mi dispiace, ma devo andare. 
 -> Blackout // sorta di limbo
 
 
@@ -227,17 +229,17 @@ Orso "Grazie amico mio. Mi servirebbero delle mele. Riusciresti a prendermene qu
 Friedrich "Certo! Credo ce ne siano laggiù, vicino all'albero. 
 Friedrich "Spero che poi però potro andarmene da qui...
 Orso "Grazie amico mio. Certo ti aiuterò ad uscire da qui.
-Inizi a raccogliere delle mele.
+Inizi a raccogliere delle mele. # mele
 Friedrich "Ok, dovrebbero bastare.
-Ritorni dall'orso.
+Ritorni dall'orso. # back
 Orso "Grazie. Come promesso, ti lascerò andare...
 -> Bar2
 
 
 
 = Blackout
-All'improvviso diventa tutto buio. # blackout
-Friedrich "Forse... mi sto svegliando.
+Subito t senti stanco e non riesci a muoverti. # blackout
+Friedrich?sorpreso "Forse... mi sto svegliando.
 Friedrich "Anche se provo una strana sensazione.
 
 + Avrei dovuto aiutare l'orso... 
@@ -251,7 +253,7 @@ Friedrich "Chissà di cosa aveva bisogno.
 
 = Bar1 // negativo
 Dopo qualche passo, di nuovo diventa tutto buio. # out1
-Friedrich " Ho fatto bene a non dar retta a quell'orso. Finalmente mi sto svegliando da questo incubo. Spero di non essere in ritardo per il lavoro.
+Friedrich?arrabbiato " Ho fatto bene a non dar retta a quell'orso. Finalmente mi sto svegliando da questo incubo. Spero di non essere in ritardo per il lavoro.
 
 -> DONE
 
