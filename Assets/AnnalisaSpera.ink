@@ -239,7 +239,7 @@ Orso "Grazie. Come promesso, ti lascerò andare...
 
 = Limbo
 Subito ti senti stanco e non riesci a muoverti. 
-Friedrich?sorpreso "Forse... mi sto svegliando. # limbo
+Friedrich?sorpreso "Forse... mi sto svegliando. 
 Friedrich "Anche se provo una strana sensazione.
 
 + Avrei dovuto aiutare l'orso... 
