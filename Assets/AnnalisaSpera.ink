@@ -254,6 +254,14 @@ Friedrich "Chissà di cosa aveva bisogno.
 = Bar1 // negativo
 Dopo qualche passo, di nuovo diventa tutto buio. # out1
 Friedrich?arrabbiato " Ho fatto bene a non dar retta a quell'orso. Finalmente mi sto svegliando da questo incubo. Spero di non essere in ritardo per il lavoro.
+Riapri gli occhi. 
+Friedrich?sorpreso "E io come ci sono arrivato qui?
+Friedrich "Credo che la stanchezza mi abbia fatto immaginare tutte quelle cose assurde... volpi, orsi... 
+Friedrich?arrabbiato "Beh, l'importante è che io sia arrivato... 
+Friedrich "Dato che sono capitato proprio qui e sono in anticipo mi prenderò qualcosa.
+Ti siedi al bancone.
++ Un caffè
+
 
 
 -> DONE
