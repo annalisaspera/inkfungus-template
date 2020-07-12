@@ -300,7 +300,7 @@ GameObject:
   - component: {fileID: 37055411}
   - component: {fileID: 37055412}
   m_Layer: 0
-  m_Name: fox 1
+  m_Name: Volpe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -314,8 +314,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 37055410}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.39, y: -2.34, z: 0}
-  m_LocalScale: {x: 0.46905133, y: 0.49067348, z: 1}
+  m_LocalPosition: {x: -4.36, y: -1.02, z: 0}
+  m_LocalScale: {x: 0.96442264, y: 1.0222291, z: 1}
   m_Children: []
   m_Father: {fileID: 1258345469}
   m_RootOrder: 0
@@ -395,8 +395,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 96867249}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.55, y: -3.36, z: 0.08450912}
-  m_LocalScale: {x: 0.67, y: 0.69, z: 1}
+  m_LocalPosition: {x: -12.11, y: -2.44, z: 0.08450912}
+  m_LocalScale: {x: 1.1656308, y: 1.3109001, z: 1}
   m_Children: []
   m_Father: {fileID: 230256281}
   m_RootOrder: 0
@@ -442,7 +442,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 929914191c7cc4f0f876dfc1acd18626, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 6, y: 4}
@@ -623,7 +623,7 @@ Transform:
   m_GameObject: {fileID: 165944752}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.5066682, y: -3.0440092, z: 4.505278}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.67, y: 2.69, z: 1}
   m_Children: []
   m_Father: {fileID: 323118922}
   m_RootOrder: 4
@@ -2122,7 +2122,8 @@ MonoBehaviour:
   nameText: Lisa
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: efd2f64e925834c44952c1ad11d91ae7, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -3039,7 +3040,7 @@ RectTransform:
   m_GameObject: {fileID: 1238214101}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1515494627}
   m_RootOrder: 1
@@ -3278,7 +3279,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1949492825
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 638d4bf02c6d3409fb51fa3ee48104e8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3501,7 +3502,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 35
+    m_FontSize: 49
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
@@ -3966,7 +3967,7 @@ Transform:
   m_GameObject: {fileID: 1558583737}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.5066682, y: -3.0440092, z: 4.505278}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 323118922}
   m_RootOrder: 0
@@ -3987,7 +3988,9 @@ MonoBehaviour:
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 3be9771bdfe914efe9478e298ae1ecc2, type: 3}
+  - {fileID: 21300000, guid: 2cc3defebf7f94f849ae92f549a36c4c, type: 3}
+  - {fileID: 21300000, guid: c87b91892cb3d41f98e0c2e8e0291e6e, type: 3}
+  - {fileID: 21300000, guid: fcbfffe987421450b88711c34a4f6a7b, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -4389,7 +4392,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -4746,6 +4749,9 @@ GameObject:
   - component: {fileID: 1917274132}
   - component: {fileID: 1917274134}
   - component: {fileID: 1917274133}
+  - component: {fileID: 1917274137}
+  - component: {fileID: 1917274136}
+  - component: {fileID: 1917274131}
   m_Layer: 0
   m_Name: Game Flowchart
   m_TagString: Untagged
@@ -4828,7 +4834,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63.204544
     y: 181.93181
-    width: 127.36522
+    width: 145.13629
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4855,11 +4861,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 384.48746, y: -29.78468}
+  scrollPos: {x: 66.26265, y: -679.9648}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 402
-  zoom: 0.34899405
+  zoom: 0.8514101
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -4867,8 +4873,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1917274132}
-  selectedCommands: []
+  - {fileID: 1917274137}
+  selectedCommands:
+  - {fileID: 1917274131}
   variables: []
   description: 
   stepPause: 0
@@ -4945,12 +4952,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 48
     y: 75
-    width: 150.28824
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 9
-  blockName: initalize backgrounds
+  blockName: inizio
   description: 
   eventHandler: {fileID: 1917274084}
   commandList:
@@ -5114,7 +5121,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 58
     y: 283
-    width: 135.96135
+    width: 151.00891
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5178,8 +5185,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 71
-    y: 371
+    x: 68.828445
+    y: 363.39963
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5302,8 +5309,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 71.170166
-    y: 439.02493
+    x: 67.912834
+    y: 447.71115
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5957,7 +5964,7 @@ MonoBehaviour:
     transformVal: {fileID: 0}
   _toPosition:
     vector3Ref: {fileID: 0}
-    vector3Val: {x: -5.8, y: -3.33, z: 0}
+    vector3Val: {x: -5.8, y: -2.14, z: 0}
   isLocal: 0
 --- !u!114 &1917274128
 MonoBehaviour:
@@ -6008,9 +6015,43 @@ MonoBehaviour:
   atTime: 0
   loop: 1
   fadeDuration: 0
---- !u!114 &1917274132
+--- !u!114 &1917274131
 MonoBehaviour:
   m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917274076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ca31fffe1be42a49b96bbb8b7ff5a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 62
+  indentLevel: 0
+  _targetObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 96867249}
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 4
+  _toFrom: 0
+  _absAdd: 0
+  easeType: 3
+  loopType: 35
+  repeats: 0
+  stopPreviousTweens: 0
+  waitUntilFinished: 1
+  _toTransform:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  _toPosition:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: -6, y: -3, z: 0}
+  isLocal: 0
+--- !u!114 &1917274132
+MonoBehaviour:
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6037,7 +6078,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &1917274133
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6061,7 +6102,7 @@ MonoBehaviour:
   targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1917274134
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6074,6 +6115,48 @@ MonoBehaviour:
   parentBlock: {fileID: 1917274132}
   suppressBlockAutoSelect: 0
   message: ink bye
+--- !u!114 &1917274136
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917274076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7d417659cd54a6787f70f763950c34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1917274137}
+  suppressBlockAutoSelect: 0
+  message: ink orso
+--- !u!114 &1917274137
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917274076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 71.46527
+    y: 1036.5962
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 61
+  blockName: Orso
+  description: 
+  eventHandler: {fileID: 1917274136}
+  commandList:
+  - {fileID: 1917274131}
+  suppressAllAutoSelections: 0
 --- !u!1 &1985818476
 GameObject:
   m_ObjectHideFlags: 0
