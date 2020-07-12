@@ -160,11 +160,11 @@ Friedrich "...
    ** (one) Ti sbagli 
 
    Friedrich "Ti sbagli. Sono proprio come loro.
-   Senza voltarti verso la volpe, ricominci a camminare.
+   Senza voltarti verso la volpe, ricominci a camminare. #bye   
    -> Orso
    
    ** (two) Non dire nulla 
-   Senza rispondere alla volpe ricominci a camminare.
+   Senza rispondere alla volpe ricominci a camminare. # bye 
    Confuso dalle parole dell'animale ti fermi a riflettere.
    Friedrich "Cosa intendeva dire?
    -> Orso
@@ -173,7 +173,10 @@ Friedrich "...
   Volpe "Friedrich, lo sento. Stai cambiando.
   Volpe "Non negarlo.
   
-  ** Non dire nulla -> Orso
+  ** (three) Non dire nulla 
+  La volpe ti sorride e se ne va. # bye
+  Rimani fermo.
+  -> Orso
 
 
 = Orso
@@ -185,6 +188,7 @@ Friedrich "Non ancora, ti prego...
 
 {one: -> Orso1}
 {two : -> Orso2} 
+{three: -> Orso2} 
 
 
 = Orso1  // negativo
