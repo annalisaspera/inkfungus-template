@@ -5495,6 +5495,14 @@ GameObject:
   - component: {fileID: 1917274198}
   - component: {fileID: 1917274195}
   - component: {fileID: 1917274201}
+  - component: {fileID: 1917274206}
+  - component: {fileID: 1917274205}
+  - component: {fileID: 1917274204}
+  - component: {fileID: 1917274203}
+  - component: {fileID: 1917274207}
+  - component: {fileID: 1917274210}
+  - component: {fileID: 1917274209}
+  - component: {fileID: 1917274208}
   m_Layer: 0
   m_Name: Game Flowchart
   m_TagString: Untagged
@@ -5577,7 +5585,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63.204544
     y: 181.93181
-    width: 140.08716
+    width: 143.75034
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5608,11 +5616,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 107.06291, y: -174.74174}
+  scrollPos: {x: 116.05821, y: -1355.051}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 378
-  zoom: 0.92133
+  zoom: 0.8853302
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -5620,9 +5628,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1917274101}
+  - {fileID: 1917274170}
   selectedCommands:
-  - {fileID: 1917274103}
+  - {fileID: 1917274208}
   variables: []
   description: 
   stepPause: 0
@@ -5872,7 +5880,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 62
     y: 266
-    width: 145.5141
+    width: 148.26842
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6112,7 +6120,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1296795139}
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 5
+    floatVal: 2
   _targetColor:
     colorRef: {fileID: 0}
     colorVal: {r: 0, g: 0, b: 0, a: 1}
@@ -7080,7 +7088,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 111.81335
     y: 985.31757
-    width: 122.72096
+    width: 123.41894
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7280,6 +7288,8 @@ MonoBehaviour:
   eventHandler: {fileID: 1917274154}
   commandList:
   - {fileID: 1917274161}
+  - {fileID: 1917274206}
+  - {fileID: 1917274205}
   suppressAllAutoSelections: 0
 --- !u!114 &1917274153
 MonoBehaviour:
@@ -7538,7 +7548,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 71.4234
     y: 1329.2983
-    width: 120
+    width: 120.030365
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7550,6 +7560,7 @@ MonoBehaviour:
   - {fileID: 1917274163}
   - {fileID: 1917274166}
   - {fileID: 1917274165}
+  - {fileID: 1917274204}
   suppressAllAutoSelections: 0
 --- !u!114 &1917274165
 MonoBehaviour:
@@ -7659,9 +7670,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -124.50365
-    y: 1465.6051
-    width: 129.23328
+    x: -121.115074
+    y: 1472.3822
+    width: 132.45511
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7671,6 +7682,7 @@ MonoBehaviour:
   eventHandler: {fileID: 1917274169}
   commandList:
   - {fileID: 1917274168}
+  - {fileID: 1917274208}
   suppressAllAutoSelections: 0
 --- !u!114 &1917274171
 MonoBehaviour:
@@ -7700,6 +7712,7 @@ MonoBehaviour:
   - {fileID: 1917274182}
   - {fileID: 1917274110}
   - {fileID: 1917274181}
+  - {fileID: 1917274203}
   - {fileID: 1917274180}
   suppressAllAutoSelections: 0
 --- !u!114 &1917274172
@@ -7801,6 +7814,7 @@ MonoBehaviour:
   - {fileID: 1917274174}
   - {fileID: 1917274140}
   - {fileID: 1917274173}
+  - {fileID: 1917274207}
   - {fileID: 1917274177}
   suppressAllAutoSelections: 0
 --- !u!114 &1917274177
@@ -7964,7 +7978,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 68.426056
     y: 1566.8783
-    width: 128.14789
+    width: 127.93702
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8086,7 +8100,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 246.6243
     y: 1560.8813
-    width: 128.14789
+    width: 129.06654
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8138,7 +8152,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 247.53383
     y: 1665.9937
-    width: 125.97712
+    width: 127.93702
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8147,6 +8161,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1917274193}
   commandList:
+  - {fileID: 1917274210}
   - {fileID: 1917274191}
   suppressAllAutoSelections: 0
 --- !u!114 &1917274193
@@ -8186,7 +8201,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &1917274195
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8222,8 +8237,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 63.409996
-    y: 1821.8777
+    x: 69.05762
+    y: 1804.9349
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -8286,7 +8301,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 66.07584
     y: 1669.0443
-    width: 125.97712
+    width: 127.93702
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8295,6 +8310,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1917274202}
   commandList:
+  - {fileID: 1917274209}
   - {fileID: 1917274200}
   suppressAllAutoSelections: 0
 --- !u!114 &1917274200
@@ -8323,7 +8339,7 @@ MonoBehaviour:
   targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1917274201
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8353,6 +8369,137 @@ MonoBehaviour:
   parentBlock: {fileID: 1917274199}
   suppressBlockAutoSelect: 0
   message: ink casafinale
+--- !u!114 &1917274203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917274076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 133
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: 733cd0bee3bae4a1ea71ace2f2994262, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 0
+--- !u!114 &1917274204
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917274076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bce3bd679be2c94196f3f6aaeb33f0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 132
+  indentLevel: 0
+--- !u!114 &1917274205
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917274076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 131
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: af034f7541d3a46d694ee234c371a1e7, type: 3}
+  volume: 0.854
+  loop: 1
+--- !u!114 &1917274206
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917274076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 130
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: 88024c8e26ffd41da995d922180089e4, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
+--- !u!114 &1917274207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917274076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 134
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: 733cd0bee3bae4a1ea71ace2f2994262, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 0
+--- !u!114 &1917274208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917274076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 137
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: 733cd0bee3bae4a1ea71ace2f2994262, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 0
+--- !u!114 &1917274209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917274076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 136
+  indentLevel: 0
+--- !u!114 &1917274210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917274076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 135
+  indentLevel: 0
 --- !u!1 &1985818476
 GameObject:
   m_ObjectHideFlags: 0
