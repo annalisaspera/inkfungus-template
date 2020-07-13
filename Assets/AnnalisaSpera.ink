@@ -55,7 +55,7 @@ L'auto accelera e parte.
    Friedrich "Sono tornato. # camera
    Lisa "Ciao caro. Vieni, è pronta la cena.
    Ti accomodi e inizi a mangiare.
-   Lisa "Come è andata oggi a lavoro?
+   Lisa "Come è andata oggi al lavoro?
   
 +  Tutto bene. Come sempre. // 10 sec
 
@@ -88,7 +88,7 @@ Lisa "Mh, hai ragione caro. Beh, allora l'udienza sarà breve, no?
 Friedrich "Già. Poveri illusi, contro 100 avvocati e giudici del Sistema. Come sempre, il giudice Schultz e Schmitt non lasceranno nemmeno parlare l'imputato.
 Ti alzi e ti dirigi alla porta.
 Lisa "Buona giornata.
-Friedrich "A sta sera.
+Friedrich "A stasera.
 -> Fuori
 
 
@@ -113,7 +113,7 @@ Friedrich "Mmm, vado in auto?
    
 = INAuto2
 
-Ti dirigi verso l'auto e parti per recarti al tribunale. 
+Ti dirigi verso l'auto e parti per recarti in tribunale. 
 -> Capitolo2
 
 
@@ -171,7 +171,7 @@ Friedrich "...
    
    ++ Ti sbagli 
    Friedrich?arrabbiato "Ti sbagli. Sono proprio come loro.
-   Senza voltarti verso la volpe, ricominci a camminare. #bye   
+   Senza voltarti verso la volpe, ricominci a camminare. # bye   
    -> Orso1
    
    ++ Non dire nulla 
@@ -208,7 +208,7 @@ Rimani in silenzio davanti all'orso.
 +  ...
 
    ++ No.
-   Ti incammini cercando di no voltarti verso l'orso, il quale rimane in silenzio. 
+   Ti incammini cercando di non voltarti verso l'orso, il quale rimane in silenzio. 
    # fade_orso
    -> Bar1
   
@@ -236,7 +236,7 @@ Orso "Ciao. Amico mio, posso chiederti un piccolo favore?
 = Aiuto
 Orso "Grazie amico mio. Mi servirebbero delle mele. Riusciresti a prendermene qualcuna? 
 Friedrich "Certo! Credo ce ne siano laggiù, vicino all'albero. 
-Friedrich "Spero che poi però potro andarmene da qui...
+Friedrich "Spero che poi però potrò andarmene da qui...
 Orso "Grazie amico mio. Certo ti aiuterò ad uscire da qui.
 Inizi a raccogliere delle mele. # mele
 Friedrich "Ok, dovrebbero bastare.
@@ -284,7 +284,7 @@ Ti siedi al bancone.
     
     ++ No
     Friedrich "Buongiorno. Vorrei un caffè, grazie.
-    Barista "Certo, glielo preparo subito..
+    Barista "Certo, glielo preparo subito.
     -> Capitolo3.Udienza1
     
 +   Ordina un caffè
