@@ -1,12 +1,19 @@
+
+
 /* Annalisa Spera
     Il giudice
       2020
     ver. 0.1 */ 
+  
     
 -> Capitolo1 
 
+
+
 === Capitolo1 ===
+
 -> Tribunale
+
 
 = Tribunale
 
@@ -23,6 +30,7 @@ Friedrich?arrabbiato "Le chiavi... eccole.
 Il motore si accende. # auto
 -> Radio
 
+
 = Radio
 
 +  Radio accesa // 5 sec
@@ -38,6 +46,7 @@ Il motore si accende. # auto
    Friedrich "Mi piace il mio lavoro, o almeno credo. Quei rivoltosi non comprendono la fortuna che abbiamo tutti ad appartenere al nostro Sistema. Perchè farsi problemi quando abbiamo già tutto organizzato per noi.
    Friedrich?arrabbiato "Non lo capirò mai.
    -> ACasa1
+   
    
    = ACasa1 
    # casa
@@ -57,9 +66,8 @@ Il motore si accende. # auto
    
    ++... 
 
-- Friedrich?arrabbiato "Sono stanco ora... andrò a dormire.
-Lisa "Va bene... buonanotte caro. # notte 
-
+-  Friedrich?arrabbiato "Sono stanco ora... andrò a dormire.
+   Lisa "Va bene... buonanotte caro. # notte 
 -> Colazione
 
 
@@ -104,16 +112,17 @@ Friedrich "Mmm, vado in auto?
  
    
 = INAuto2
-Ti dirigi verso l'auto e parti per recarti al tribunale. 
 
+Ti dirigi verso l'auto e parti per recarti al tribunale. 
 -> Capitolo2
+
+
 
 === Capitolo2 ===
 
 = IlSogno
 
 # buio
-
 All'improvviso diventa tutto buio. Non vedi nulla intorno a te. 
 Friedrich?sorpreso "Cosa sta succedendo?! 
 Friedrich?sorpreso "Non vedo niente!
@@ -121,9 +130,10 @@ Chiudi gli occhi per qualche secondo, sfregandoli ripetutamente.
 Riapri gli occhi. # foresta
 Friedrich?sorpreso "Ma che diavolo?! 
 Friedrich?sorpreso "Dove sono finito?"
-...
-...
+Friedrich?sorpreso "...
+Friedrich?sorpreso "...
 Friedrich "E ora?
+
 +   Vai a destra
 # destra
 Inizi a camminare lungo la foresta cercando di capire cosa stia succedendo. Arrivi all'ombra di un grande albero.
@@ -141,6 +151,7 @@ Ti fermi un istante e rifletti.
 + Rimani fermo
 -> Volpe
 
+
 = Volpe 
 All'improvviso si avvicina qualcuno. # volpe
 Friedrich?sorpreso "Ma... è una volpe?
@@ -148,7 +159,7 @@ Friedrich?sorpreso "Perchè una volpe ora? Cosa mi sta succedendo?!
 L'animale si avvicina sempre di più.
 Volpe "Ciao. Non avere paura. 
 Rimani immobile e in silenzio continui a guardare la creatura.
-Volpe "Non voglio farti del male. Voglio solo parlati di una cosa.
+Volpe "Non voglio farti del male. Voglio solo parlare con te.
 Volpe "Il caffè. A te piace molto. Anche a me. Ne vado pazzo.
 Volpe "Però ho assaggiato il latte, recentemente. Devo dire che mi è piaciuto molto. Anzi, forse lo preferisco. Dovresti provare anche tu.
 Friedrich "...
@@ -169,14 +180,14 @@ Friedrich "...
    Friedrich "Cosa intendeva dire?
    -> Orso2
 
-+ Ascolta la volpe
-  Volpe "Friedrich, lo sento. Stai cambiando.
-  Volpe "Non negarlo.
++  Ascolta la volpe
+   Volpe "Friedrich, lo sento. Stai cambiando.
+   Volpe "Non negarlo.
   
-  ++ Non dire nulla 
-  La volpe ti sorride e se ne va. # bye
-  Rimani fermo.
-  -> Orso2
+   ++ Non dire nulla 
+   La volpe ti sorride e se ne va. # bye
+   Rimani fermo.
+   -> Orso2
 
 
 = Orso1  // negativo
@@ -189,24 +200,21 @@ Friedrich?arrabbiato "Non ancora, ti prego...
 Orso "Ciao. Amico mio, posso chiederti un piccolo favore?
 Rimani in silenzio davanti all'orso.
 
-+ No, devo tornarmene alla realtà
-  Friedrich?arrabbiato "E' tutto uno stupido sogno. Devo andare al tribunale al più presto, appena sarò sveglio.
-  L'orso rimane immobile mentre vai via, amareggiato dalla tua fretta. # fade_orso
++  No, devo tornarmene alla realtà
+   Friedrich?arrabbiato "E' tutto uno stupido sogno. Devo andare al tribunale al più presto, appena sarò sveglio.
+   L'orso rimane immobile mentre vai via, amareggiato dalla tua fretta. # fade_orso
    -> Bar1
   
-+ ...
++  ...
 
-  ++ No.
-  Ti incammini cercando di no voltarti verso l'orso, il quale rimane in silenzio. 
-  # fade_orso
+   ++ No.
+   Ti incammini cercando di no voltarti verso l'orso, il quale rimane in silenzio. 
+   # fade_orso
+   -> Bar1
   
-  -> Bar1
+   ++ Va bene...
+   -> Aiuto
   
-  ++ Va bene...
-  -> Aiuto
-  
- 
--> DONE
 
 = Orso2  // positivo
 
@@ -216,11 +224,12 @@ Anch'esso, come la volpe, si avvicina.
 Friedrich?sorpreso "Oh no... Che mi succede? 
 Friedrich?arrabbiato "Non ancora, ti prego...
 Orso "Ciao. Amico mio, posso chiederti un piccolo favore?
-+ Certo!
--> Aiuto
 
-+ Mi dispiace, ma devo andare. 
--> Limbo 
++  Certo!
+   -> Aiuto
+
++  Mi dispiace, ma devo andare. 
+   -> Limbo 
 
 
 
@@ -252,6 +261,7 @@ Friedrich "Chissà di cosa aveva bisogno.
 
 
 = Bar1 // negativo
+
 Dopo qualche passo, di nuovo diventa tutto buio. # out1
 Friedrich?arrabbiato "Ho fatto bene a non dar retta a quell'orso. Finalmente mi sto svegliando da questo incubo. Spero di non essere in ritardo per il lavoro.
 Riapri gli occhi. # bar
@@ -284,6 +294,7 @@ Ti siedi al bancone.
     
 
 = Bar2 // positivo
+
 Dopo qualche passo, di nuovo diventa tutto buio. # out2
 Friedrich "Finalmente!
 Riapri gli occhi. # bar
@@ -298,6 +309,7 @@ Friedrich?arrabbiato "Il Sistema non può cambiare."
 Friedrich?arrabbiato "Basta pensarci.
 Barista "Buongiorno. Vuole ordinare?
 Friedrich?sorpreso "Ah! C-certo!
+
 +   Ordina del latte
     Friedrich "Oggi credo prenderò un bicchiere di latte, grazie.
     Barista "Certo glielo preparo subito.
@@ -313,6 +325,7 @@ Friedrich?sorpreso "Ah! C-certo!
 
 
 = Udienza1
+
 Esci dal bar e arrivi finalmente in tribunale. # tribunale
 Friedrich?arrabbiato "Che mattinata. Chissà perchè ho immaginato certe cose.
 Friedrich "Quella volpe... chissà cosa intendeva.
@@ -322,6 +335,7 @@ Entri dalla porta principale del tribunale e ti dirigi verso l'aula dove si tien
 Guardando l'aula però noti che non c'è nessuno.
 Friedrich?sorpreso "Merda. Probabilmente sono in ritardo.
 Friedrich?arrabbiato "Per colpa di quello stupido sogno.
+
 +   Torna a casa
     Ti volti e ritorni verso l'entrata dell'edificio.
     Friedrich?arrabbiato "E ora come faccio?! Mi licenzieranno!
@@ -330,16 +344,17 @@ Friedrich?arrabbiato "Per colpa di quello stupido sogno.
 
     ** Riprova ad aprire la porta
     Riprovi, ma la porta non si apre.
-    Friedrich?sorpreso "'?! # finale2
+    Friedrich?sorpreso "'?! # finalevolpe
     Friedrich?sorpreso "Ma cosa sta succedendo?
     Volpe "Mi sbagliavo.
-    Volpe "Sei proprio come tutti loro.
+    Volpe "Sei proprio come tutti loro. 
     -> Capitolo1
     
     ** Vai in aula
     Entri in aula e ti siedi.
     Friedrich?sorpreso "?! # finale1
-    ? "Come deciso dalla corte del Sistema, dichiaro l'imputato Weber Friedrich colpevole. 
+    Friedrich?sorpreso "???
+    Schultz "Come deciso dalla corte del Sistema, dichiaro l'imputato Weber Friedrich colpevole. 
     # end
     -> DONE
     
@@ -347,43 +362,44 @@ Friedrich?arrabbiato "Per colpa di quello stupido sogno.
 +   Entra in aula
     Lentamente entri in aula e ti siedi, cercando di capire se c'è qualcuno oltre a te.
     Friedrich?sorpreso "?! # finale1
-    ? "Come deciso dalla corte del Sistema, dichiaro l'imputato Weber Friedrich colpevole. 
+    Schultz "Come deciso dalla corte del Sistema, dichiaro l'imputato Weber Friedrich colpevole. 
     # end
     -> DONE
     
 
 
 = Udienza2
+
 Esci dal bar e arrivi finalmente in tribunale. # tribunale
 Friedrich "Spero di essere in orario.
-Schmitt Buongiorno Friedrich!
-Friedrich "Buogngiorno!
-Schmitt "Ti stiamo giusto aspettando. Oggi è il gran giorno, eh?
+Schmitt "Buongiorno Friedrich!
+Friedrich "Buongiorno!
+Schmitt "Ti stavamo giusto aspettando. Oggi è il gran giorno, eh?
 Friedrich?sorpreso "Il gran giorno?
 Schmitt "Sì, non ricordi? Oggi sistemiamo per bene quel rivoltista.
 Friedrich "Ah... giusto. Beh, entro in aula allora.
-# rivoltista
-? "...è dichiarato colpevole. Così è deciso, l'udienza è tolta.
+# finale2
+Schultz "...è dichiarato colpevole. Così è deciso, l'udienza è tolta.
 +   Opponiti
     Friedrich?arrabbiato "Fermi! Lui non è colpevole.
-    ? "Giudice Weber cosa fa?
+    Schultz "Giudice Weber cosa fa?
     Friedrich?arrabbiato "Mi oppongo.
-    ? "Lei è impazzito. Portatelo via.
-    # suspence
+    Schultz "Lei è impazzito. Portatelo via.
+    # suspence1
     -> Casafinale1
     
     
 +   Non fare nulla
-    # finale2
+    # finalevolpe
     Volpe "Mi hai deluso.
-    # suspence
+    # suspence2
     -> Casafinale2
     
 
 
 = Casafinale1 // positiva
 
-Lisa "Ciao amore, come è andata a lavoro?
+Lisa "Ciao amore, come è andata a lavoro? # casafinale
 Friedrich "Benissimo, dobbiamo festeggiare!
 Lisa "Sono contenta, raccontami tutto!
 Friedrich "Tra poco, prima vorrei mangiare qualcosa.
@@ -396,7 +412,7 @@ Lisa "Latte e biscotti sia.
 
 
 = Casafinale2 // negativa
-Lisa "Ciao amore, come è andata a lavoro?
+Lisa "Ciao amore, come è andata a lavoro? # casafinale
 Non rispondi e ti siedi al tavolo.
 Lisa "Ti ho preparato un caffè.
 # end
