@@ -28,6 +28,7 @@ Friedrich "A domani.
 
 Friedrich?arrabbiato "Le chiavi... eccole. 
 Il motore si accende. # auto
+L'auto accelera e parte.
 -> Radio
 
 
@@ -38,7 +39,6 @@ Il motore si accende. # auto
    -> Radio
    
 +  Radio spenta // 10 sec
-   L'auto accelera e parte.
    Friedrich "Che giornata...
    Friedrich "Non vedo l'ora di arrivare a casa.
    Friedrich?arrabbiato "Chissà domani cosa succederà.
