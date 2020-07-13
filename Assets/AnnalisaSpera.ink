@@ -25,11 +25,11 @@ Il motore si accende. # auto
 
 = Radio
 
-*  Radio accesa // 5 sec
++  Radio accesa // 5 sec
    Friedrich "Davvero? Io la odio.
    -> Radio
    
-*  Radio spenta // 10 sec
++  Radio spenta // 10 sec
    L'auto accelera e parte.
    Friedrich "Che giornata...
    Friedrich "Non vedo l'ora di arrivare a casa.
@@ -148,7 +148,7 @@ Friedrich?sorpreso "Perchè una volpe ora? Cosa mi sta succedendo?!
 L'animale si avvicina sempre di più.
 Volpe "Ciao. Non avere paura. 
 Rimani immobile e in silenzio continui a guardare la creatura.
-Volpe "Non voglio farti del male. Voglio solo chiederti una cosa.
+Volpe "Non voglio farti del male. Voglio solo parlati di una cosa.
 Volpe "Il caffè. A te piace molto. Anche a me. Ne vado pazzo.
 Volpe "Però ho assaggiato il latte, recentemente. Devo dire che mi è piaciuto molto. Anzi, forse lo preferisco. Dovresti provare anche tu.
 Friedrich "...
@@ -253,25 +253,153 @@ Friedrich "Chissà di cosa aveva bisogno.
 
 = Bar1 // negativo
 Dopo qualche passo, di nuovo diventa tutto buio. # out1
-Friedrich?arrabbiato " Ho fatto bene a non dar retta a quell'orso. Finalmente mi sto svegliando da questo incubo. Spero di non essere in ritardo per il lavoro.
-Riapri gli occhi. 
-Friedrich?sorpreso "E io come ci sono arrivato qui?
+Friedrich?arrabbiato "Ho fatto bene a non dar retta a quell'orso. Finalmente mi sto svegliando da questo incubo. Spero di non essere in ritardo per il lavoro.
+Riapri gli occhi. # bar
+Friedrich?sorpreso "E io come ci sono arrivato qui? 
 Friedrich "Credo che la stanchezza mi abbia fatto immaginare tutte quelle cose assurde... volpi, orsi... 
 Friedrich?arrabbiato "Beh, l'importante è che io sia arrivato... 
 Friedrich "Dato che sono capitato proprio qui e sono in anticipo mi prenderò qualcosa.
 Ti siedi al bancone.
-+ Un caffè
 
-
-
--> DONE
++   Ordina del latte
+    Friedrich?arrabbiato "Davvero?
+    
+    ++ Sì
+    Friedrich "Buongiorno, vorrei... del latte.
+    Barista "Buongiorno.
+    Barista "Mi dispiace signore, il latte è finito.
+    Friedrich "Va bene un caffè allora. Grazie.
+    Barista "Arriva subito.
+    -> Capitolo3.Udienza1
+    
+    ++ No
+    Friedrich "Buongiorno. Vorrei un caffè, grazie.
+    Barista "Certo, glielo preparo subito..
+    -> Capitolo3.Udienza1
+    
++   Ordina un caffè
+    Friedrich "Buongiorno. Un caffè, grazie.
+    Barista "Subito.
+    -> Capitolo3.Udienza1
+    
 
 = Bar2 // positivo
 Dopo qualche passo, di nuovo diventa tutto buio. # out2
 Friedrich "Finalmente!
+Riapri gli occhi. # bar
+Friedrich?sorpreso "E io come ci sono arrivato qui? 
+Friedrich?sorpreso "Sicuramente era un sogno o qualcosa del genere.
+Friedrich "Chissà se aveva un certo significato.
+Friedrich "La volpe cosa intendeva dire?
+Friedrich "Sto cambiando?
+Friedrich "Non posso cambiare...
+Friedrich?sorpreso "...il Sistema...
+Friedrich?arrabbiato "Il Sistema non può cambiare."
+Friedrich?arrabbiato "Basta pensarci.
+Barista "Buongiorno. Vuole ordinare?
+Friedrich?sorpreso "Ah! C-certo!
++   Ordina del latte
+    Friedrich "Oggi credo prenderò un bicchiere di latte, grazie.
+    Barista "Certo glielo preparo subito.
+    -> Capitolo3.Udienza2
+    
++   Ordina un caffè
+    Friedrich "Sì, vorrei un caf...
+    Friedrich?sorpreso "Del latte.
+    Barista "Arriva subito.
+    -> Capitolo3.Udienza2
+    
+=== Capitolo3 ===    
 
+
+= Udienza1
+Esci dal bar e arrivi finalmente in tribunale. # tribunale
+Friedrich?arrabbiato "Che mattinata. Chissà perchè ho immaginato certe cose.
+Friedrich "Quella volpe... chissà cosa intendeva.
+Friedrich?arrabbiato "Io sono proprio come tutti gli altri, non cambierò mai.
+Friedrich "Non si deve mai cambiare.
+Entri dalla porta principale del tribunale e ti dirigi verso l'aula dove si tiene il processo.
+Guardando l'aula però noti che non c'è nessuno.
+Friedrich?sorpreso "Merda. Probabilmente sono in ritardo.
+Friedrich?arrabbiato "Per colpa di quello stupido sogno.
++   Torna a casa
+    Ti volti e ritorni verso l'entrata dell'edificio.
+    Friedrich?arrabbiato "E ora come faccio?! Mi licenzieranno!
+    Arrivi alla porta, ma è bloccata.
+    Friedrich?arrabbiato "Non è possibile.
+
+    ** Riprova ad aprire la porta
+    Riprovi, ma la porta non si apre.
+    Friedrich?sorpreso "'?! # finale2
+    Friedrich?sorpreso "Ma cosa sta succedendo?
+    Volpe "Mi sbagliavo.
+    Volpe "Sei proprio come tutti loro.
+    -> Capitolo1
+    
+    ** Vai in aula
+    Entri in aula e ti siedi.
+    Friedrich?sorpreso "?! # finale1
+    ? "Come deciso dalla corte del Sistema, dichiaro l'imputato Weber Friedrich colpevole. 
+    # end
+    -> DONE
+    
+    
++   Entra in aula
+    Lentamente entri in aula e ti siedi, cercando di capire se c'è qualcuno oltre a te.
+    Friedrich?sorpreso "?! # finale1
+    ? "Come deciso dalla corte del Sistema, dichiaro l'imputato Weber Friedrich colpevole. 
+    # end
+    -> DONE
+    
+
+
+= Udienza2
+Esci dal bar e arrivi finalmente in tribunale. # tribunale
+Friedrich "Spero di essere in orario.
+Schmitt Buongiorno Friedrich!
+Friedrich "Buogngiorno!
+Schmitt "Ti stiamo giusto aspettando. Oggi è il gran giorno, eh?
+Friedrich?sorpreso "Il gran giorno?
+Schmitt "Sì, non ricordi? Oggi sistemiamo per bene quel rivoltista.
+Friedrich "Ah... giusto. Beh, entro in aula allora.
+# rivoltista
+? "...è dichiarato colpevole. Così è deciso, l'udienza è tolta.
++   Opponiti
+    Friedrich?arrabbiato "Fermi! Lui non è colpevole.
+    ? "Giudice Weber cosa fa?
+    Friedrich?arrabbiato "Mi oppongo.
+    ? "Lei è impazzito. Portatelo via.
+    # suspence
+    -> Casafinale1
+    
+    
++   Non fare nulla
+    # finale2
+    Volpe "Mi hai deluso.
+    # suspence
+    -> Casafinale2
+    
+
+
+= Casafinale1 // positiva
+
+Lisa "Ciao amore, come è andata a lavoro?
+Friedrich "Benissimo, dobbiamo festeggiare!
+Lisa "Sono contenta, raccontami tutto!
+Friedrich "Tra poco, prima vorrei mangiare qualcosa.
+Friedrich "Latte e biscotti, ti va?
+Lisa "Oh...va bene caro.
+Lisa "Latte e biscotti sia.
+# end
 -> DONE
 
 
+
+= Casafinale2 // negativa
+Lisa "Ciao amore, come è andata a lavoro?
+Non rispondi e ti siedi al tavolo.
+Lisa "Ti ho preparato un caffè.
+# end
+-> DONE
 
   
